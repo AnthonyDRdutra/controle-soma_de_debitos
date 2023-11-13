@@ -158,7 +158,7 @@ float somarValores(const char *cliente) {
                         }
                     }
 
-                    break;  // Saia do loop, pois encontramos o cliente
+                    break;  
                 }
             }
 
@@ -198,7 +198,7 @@ float somarValores(const char *cliente) {
                                 }
                             }
 
-                            break;  // Saia do loop, pois encontramos o cliente
+                            break;  
                         }
                     }
 
