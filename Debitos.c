@@ -34,7 +34,7 @@ int main(void) {
 
         switch (opcao) {
             case 1:
-                printf("Enter cliente name (enter 0 to stop): ");
+                printf("Enter client name (enter 0 to stop): ");
                 scanf("%s", transacao.cliente);
 
                 while (strcmp(transacao.cliente, "0") != 0) {
@@ -47,7 +47,7 @@ int main(void) {
 
                     salvarTransacao(&transacao);
 
-                    printf("Enter cliente name (enter 0 to stop): ");
+                    printf("Enter client name (enter 0 to stop): ");
                     scanf("%s", transacao.cliente);
                 }
                 break;
@@ -57,7 +57,7 @@ int main(void) {
                 break;
 
             case 3:
-                printf("Enter cliente name: ");
+                printf("Enter client name: ");
                 scanf("%s", transacao.cliente);
                 printf("\n/////////////////////////////////////////////\nSoma dos valores para o cliente %s: R$ %.2f\n", transacao.cliente, somarValores(transacao.cliente));
                 break;
