@@ -1,0 +1,17 @@
+
+~////////////////////////~ 
+
+Cliente: exemplo
+Data: 12/02/2023
+Valor: R$ 340.00
+Frentista: frentista
+
+~////////////////////////~ 
+~////////////////////////~ 
+
+Cliente: exemplo
+Data: 13/02/2023
+Valor: R$ 800.00
+Frentista: frentista
+
+~////////////////////////~ 
